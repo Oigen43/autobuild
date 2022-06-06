@@ -28,8 +28,9 @@ jobs:
         run: |
           cd examples
           rm -rf base
+          pwd
       - name: 'Build base'
-        run: ../packages/create-ship-app/src/scipts/full-stack.sh base /home/runner/work/autobuild/autobuild/examples api-koa docker-compose-koa.yml Koa.js MongoDB digital-ocean/common digital-ocean/koa
+        run: /home/runner/work/autobuild/autobuild/packages/create-ship-app/src/scripts/full-stack.sh base /home/runner/work/autobuild/autobuild/packages/create-ship-app/src api-koa docker-compose-koa.yml Koa.js MongoDB digital-ocean/common digital-ocean/koa
         shell: bash
       - name: 'Commit changes'
         run: |
