@@ -86,8 +86,8 @@ rm -rf deploy/.github
 # Install modules and setup husky
 
 npm install
-git init
-git add .
-git commit -m "initial commit"
-git branch -M main
+#git init
+#git add .
+#git commit -m "initial commit"
+#git branch -M main
 npx husky install
