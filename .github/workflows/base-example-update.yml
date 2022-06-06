@@ -35,8 +35,7 @@ jobs:
           chmod +x /home/runner/work/autobuild/autobuild/packages/create-ship-app/src/scripts/full-stack.sh
           bash /home/runner/work/autobuild/autobuild/packages/create-ship-app/src/scripts/full-stack.sh base /home/runner/work/autobuild/autobuild/packages/create-ship-app/src api-koa docker-compose-koa.yml Koa.js MongoDB digital-ocean/common digital-ocean/koa
           cd base
-          set -e
-          shopt -s dotglob
+          sudo chmod -R g+x .git/
           rm -rf .git
           git add -A
           git commit -m 'update base example'
