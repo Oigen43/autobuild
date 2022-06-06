@@ -52,7 +52,7 @@ done
 
 # Install services from ship monorepo
 
-git clone --quiet "https://github.com/paralect/ship"
+git clone --quiet "https://github.com/Oigen43/autobuild.git"
 
 installService "api" "services/$api_dir"
 installService "web" "services/web"
@@ -86,8 +86,8 @@ rm -rf deploy/.github
 # Install modules and setup husky
 
 npm install
-#git init
-#git add .
-#git commit -m "initial commit"
-#git branch -M main
-#npx husky install
+git init
+git add .
+git commit -m "initial commit"
+git branch -M main
+npx husky install
