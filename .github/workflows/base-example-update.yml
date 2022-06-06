@@ -33,11 +33,7 @@ jobs:
           cd examples
           rm -rf base
           chmod +x /home/runner/work/autobuild/autobuild/packages/create-ship-app/src/scripts/full-stack.sh
-      - name: 'Build base'
-        run: /home/runner/work/autobuild/autobuild/packages/create-ship-app/src/scripts/full-stack.sh base /home/runner/work/autobuild/autobuild/packages/create-ship-app/src api-koa docker-compose-koa.yml Koa.js MongoDB digital-ocean/common digital-ocean/koa
-        shell: bash
-      - name: 'Push changes'
-        run: |
+          bash /home/runner/work/autobuild/autobuild/packages/create-ship-app/src/scripts/full-stack.sh base /home/runner/work/autobuild/autobuild/packages/create-ship-app/src api-koa docker-compose-koa.yml Koa.js MongoDB digital-ocean/common digital-ocean/koa
           ls
           pwd
           rm -rf .git
