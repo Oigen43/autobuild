@@ -28,8 +28,6 @@ jobs:
         run: |
           git config --global user.email "github-actions"
           git config --global user.name "github-actions@github.com"
-      - name: 'Change dir'
-        run: |
           cd examples
           rm -rf base
           chmod +x /home/runner/work/autobuild/autobuild/packages/create-ship-app/src/scripts/full-stack.sh
