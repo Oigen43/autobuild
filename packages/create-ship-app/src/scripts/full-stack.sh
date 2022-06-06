@@ -22,7 +22,7 @@ function installService() {
   service="$1"
   service_dir="$2"
 
-  cp -a "ship/$service_dir/." "$service"
+  cp -a "autobuild/$service_dir/." "$service"
 
   if [ "$service" != "deploy" ]; then
     cd "$service"
@@ -47,7 +47,7 @@ echo ".DS_Store" >> .gitignore
 # Rename services in docker-compose.yml
 
 for i in docker-compose*; do
-  perl -i -pe"s/ship/$project_name/g" $i
+  perl -i -pe"s/autobuild/$project_name/g" $i
 done
 
 # Install services from ship monorepo
@@ -64,7 +64,7 @@ if [ ! -z "$platform_specific_dir" ]; then
   installService "deploy" "deploy/$platform_specific_dir"
 fi
 
-rm -rf ship
+rm -rf autobuild
 
 # Copy docker-compose.yml
 
