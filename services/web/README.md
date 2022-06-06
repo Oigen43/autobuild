@@ -8,7 +8,7 @@ You also can start the app using Dockerfile.
 
 ## Deployment
  sadadsasdsadasdasd
-### Vercelsadasdasdasdad
+### Vercelsada asdasdas sdasdasdad
 asdasdasd
 The easiest way to deploy Web Starter is to use the [Vercel Platform](https://vercel.com/) from the creators of Next.js.
  asdas d a

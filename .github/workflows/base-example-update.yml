@@ -38,7 +38,7 @@ jobs:
         shell: bash
       - name: 'Push changes'
         run: |
-          rm -rf base/.git
+          sudo rm -rf base/.git
           git add .
           git commit -m 'update base example'
           git push origin main
