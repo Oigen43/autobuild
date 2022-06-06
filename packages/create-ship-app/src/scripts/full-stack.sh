@@ -90,4 +90,4 @@ npm install
 #git add .
 #git commit -m "initial commit"
 #git branch -M main
-npx husky install
+#npx husky install
