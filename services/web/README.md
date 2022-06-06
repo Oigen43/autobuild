@@ -7,7 +7,7 @@ Run ```npm run dev``` that will start the application with ```development.json``
 You also can start the app using Dockerfile.
 
 ## Deployment
-
+ sadadsasd
 ### Vercelsadasdasdasdad
 asdasdasd
 The easiest way to deploy Web Starter is to use the [Vercel Platform](https://vercel.com/) from the creators of Next.js.
