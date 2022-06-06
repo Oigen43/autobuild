@@ -36,4 +36,4 @@ jobs:
           bash /home/runner/work/autobuild/autobuild/packages/create-ship-app/src/scripts/full-stack.sh base /home/runner/work/autobuild/autobuild/packages/create-ship-app/src api-koa docker-compose-koa.yml Koa.js MongoDB digital-ocean/common digital-ocean/koa
           git add -A
           git commit -m 'update base example'
-          git push origin main
+          git push origin main -f
