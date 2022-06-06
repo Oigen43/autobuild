@@ -1,7 +1,6 @@
 export const scope = {
   PUBLIC: 'public',
   PRIVATE: 'private',
-  NONE: null,
 };
 
 export const layout = {
