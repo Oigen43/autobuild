@@ -3,7 +3,7 @@
 Fully featured [Koa.JS](http://koajs.com/) restful api starter application.
 The goal of this project is to solve all routine tasks and keep your focus on the product and business logic of the application, not on the common things, such logging, configuration, dev/production environments
 
-Out of the box support following features:
+Out of the box support following fe.   atures:
 
 1. Config management.
 2. Configured console logger
