@@ -15,7 +15,7 @@ The easiest way to deploy Web Starter is to use the [Vercel Platform](https://ve
 ### Docker
 asdasd  asdasdasd 
 You can deploy Web starter anywhere where you can run Docker. In our opinion, the easiest way is [Digital Ocean Apps](https://www.digitalocean.com/products/app-platform).
-
+asdasdas
 ### CDN
 
 You can deploy Web starter through CDN, but keep in mind that some features of Next.js like [SSR](https://nextjs.org/docs/basic-features/pages#server-side-rendering), [API Routes](https://nextjs.org/docs/api-routes/introduction) will not work.
