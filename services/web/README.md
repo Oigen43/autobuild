@@ -1,7 +1,7 @@
 # Web Starter
 
 Web Starter is what we think an ideal starting point for the most React.JS frontend applications. It is based on the following primary technologies:
-
+ dsad asd 
 Run ```npm run dev``` that will start the application with ```development.json``` config.
 
 You also can start the app using Dockerfile.
