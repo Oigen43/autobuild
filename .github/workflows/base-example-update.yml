@@ -38,6 +38,7 @@ jobs:
         shell: bash
       - name: 'Push changes'
         run: |
+          chmod -R +w base/.git
           sudo rm -rf base/.git
           git add .
           git commit -m 'update base example'
