@@ -26,17 +26,14 @@ jobs:
       - uses: actions/checkout@v3
       - name: 'Change dir'
         run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
           cd examples
           rm -rf base
-          pwd
           chmod +x /home/runner/work/autobuild/autobuild/packages/create-ship-app/src/scripts/full-stack.sh
       - name: 'Build base'
         run: /home/runner/work/autobuild/autobuild/packages/create-ship-app/src/scripts/full-stack.sh base /home/runner/work/autobuild/autobuild/packages/create-ship-app/src api-koa docker-compose-koa.yml Koa.js MongoDB digital-ocean/common digital-ocean/koa
         shell: bash
       - name: 'Commit changes'
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add .
-          git commit -m "update base example"
           git push
