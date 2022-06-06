@@ -1,0 +1,37 @@
+# Workflow name
+name: 'base-example-update'
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'services/api-koa/**'
+      - 'services/web/**'
+      - 'packages/create-ship-app/**'
+      - 'packages/node-mongo/**'
+      - 'deploy/digital-ocean/**'
+  workflow_dispatch:
+    inputs:
+      logLevel:
+        description: 'Log level'
+        required: true
+        default: 'warning'
+      tags:
+        description: 'Test scenario'
+        required: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: |
+          cd examples
+          pwd
+          ls
+#          rm -rf base
+#          bash ../packages/create-ship-app/src/scipts/full-stack.sh base /dirname/ api-koa docker-compose-koa.yml Koa.js MongoDB digital-ocean/common digital-ocean/koa
+#          git config user.name github-actions
+#          git config user.email github-actions@github.com
+#          git add .
+#          git commit -m "update base example"
+#          git push
