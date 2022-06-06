@@ -5,7 +5,7 @@ Web Starter is what we think an ideal starting point for the most React.JS front
 Run ```npm run dev``` that will start the application with ```development.json``` config.
  asdasd as
 You also can start the app using Dockerfile.
- asdasdasd 
+ asdasdasd  dasdasd
 ## Deploymentasdasd asdasd a
  sadadsasdsadasdasd as das dasd asd sa 
 ### Vercelsada asdasdas sdasdasdad
