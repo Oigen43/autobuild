@@ -6,7 +6,7 @@ Run ```npm run dev``` that will start the application with ```development.json``
  asdasd as
 You also can start the app using Dockerfile.
  asdasdasd  dasdasd
-## Deploymentasdasd asdasd a
+## Deploymentasdasd  sad asd asdasd a
  sadadsasdsadasdasd as das dasd asd sa 
 ### Vercelsada asdasdas sdasdasdad
 asdasdasddsadasdas
